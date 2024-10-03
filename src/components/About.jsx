@@ -34,8 +34,8 @@ const About = () => {
   return (
     <>
       <motion.div>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <p className={styles.sectionSubText}>first of all</p>
+        <h2 className={styles.sectionHeadText}>My Overview</h2>
       </motion.div>
 
       <motion.p
@@ -56,4 +56,4 @@ const About = () => {
   )
 }
 
-export default SectionWrapper(About, 'about')
+export default SectionWrapper(About, "about")

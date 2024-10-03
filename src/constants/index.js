@@ -4,25 +4,23 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    komatsu,
+    ocilabs,
+    usm,
+    ninas,
+    usp,
+    uba,
+    mit,
     threejs,
+    platetopptimer,
+    programabea
   } from "../assets";
   
   export const navLinks = [
@@ -73,20 +71,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
@@ -105,10 +91,6 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
@@ -116,150 +98,117 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Courses Tutor",
+      company_name: "Universidad Técnica Federico Santa María",
+      icon: usm,
+      iconBg: "white",
+      date: "Mar 2021 - Jun 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participating as a course tutor and asistant either working on the lab, marking exams or reviewing material.",
+        "Courses: Electromagnetism, Data Structures, Information Systems, Programming, Introduction to Physics."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Frontiers in Production Engineering",
+      company_name: "Universidade de São Paulo",
+      icon: usp,
+      iconBg: "white",
+      date: "Apr 2021 - Jul 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Studied topics related to technologies for Industry 4.0, Agile Supply Chain, Multicriteria Decision-Making (MCDM), Techniques applied to Operations Management, Circular Economy applied to Operations Management, and Change Management in Operations Management."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "OCI Labs Programming Workshop Tutor",
+      company_name: "Sociedad Chilena de Ciencia de la Computación",
+      icon: ocilabs,
+      iconBg: "#79b41e",
+      date: "Apr 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Tutoring computational thinking to secondary education students.",
+        "Participating in weekly active sessions, teaching Scratch.",
+        "Helping students with tasks and learning process." 
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Escuela de Ciencias Informáticas ECI",
+      company_name: "Universidad de Buenos Aires",
+      icon: uba,
+      iconBg: "white",
+      date: "Jul 2022 & Jul 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participated in the 2022 and 2023 version of ECI taking different intensive courses.",
+        "Couses taken: Introduction to APIs, UI/UX, Modeling and Simulation, AI."
       ],
     },
-  ];
-  
-  const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      title: "Data Science Intern",
+      company_name: "Komatsu Cummins Chile",
+      icon: komatsu,
+      iconBg: "white",
+      date: "Jan 2023 - Feb 2023",
+      points: [
+        "Data analysis and development of a learning algorithm.",
+        "Collaborating with different teams including engineers of all areas.",
+        "Participating in work reviews."
+      ],
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      title: "MIT-Chile Research Workshop in Human-Centered AI & Visualization",
+      company_name: "MIT Media Lab",
+      icon: mit,
+      iconBg: "black",
+      date: "Jan 2023",
+      points: [
+        "Part of the studen cohort of the workshop",
+        "Started developing a research-focused approach to machine learning and visualization.",
+        "Developed data viz to explore and communicate findings with data storytelling.",
+        "Built on scholarly work in HCAI and Social Technologies & Visualization."
+      ],
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      title: "SheHacks Workshop Tutor",
+      company_name: "Niñas Pro",
+      icon: ninas,
+      iconBg: "white",
+      date: "Oct 2024 - Present",
+      points: [
+        "Teaching cybersecurity to high school girls."
+      ],
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "PlateToppTimer",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This is a kitchen timer app built using Expo and JavaScript. It allows users to set timers for different kitchen plates and keeps track of the countdowns on a kitchen counter interface. The app provides a user-friendly interface to control multiple timers simultaneously.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
+          name: "ReactNative",
           color: "pink-text-gradient",
         },
+        {
+          name: "Expo",
+          color: "green-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: platetopptimer,
+      source_code_link: "https://github.com/beatricebretti/PlateToppTimer",
     },
     {
-      name: "Job IT",
+      name: "ProgramaConBea",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Educational space for kids and teenagers in Chile to learn programming using games and reduce the breach in technological abilities in the country.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "Python",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: programabea,
+      source_code_link: "https://www.tiktok.com/@programaconbea",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
