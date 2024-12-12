@@ -104,7 +104,7 @@ import {
       iconBg: "white",
       date: "Mar 2021 - Jun 2024",
       points: [
-        "Participating as a course tutor and asistant either working on the lab, marking exams or reviewing material.",
+        "Participating as a course tutor and assistant either working on the lab, marking exams or reviewing material.",
         "Courses: Electromagnetism, Data Structures, Information Systems, Programming, Introduction to Physics."
       ],
     },
@@ -127,7 +127,7 @@ import {
       points: [
         "Tutoring computational thinking to secondary education students.",
         "Participating in weekly active sessions, teaching Scratch.",
-        "Helping students with tasks and learning process." 
+        "Helping students with their tasks and learning process." 
       ],
     },
     {
@@ -138,7 +138,7 @@ import {
       date: "Jul 2022 & Jul 2023",
       points: [
         "Participated in the 2022 and 2023 version of ECI taking different intensive courses.",
-        "Couses taken: Introduction to APIs, UI/UX, Modeling and Simulation, AI."
+        "Courses taken: Introduction to APIs, UI/UX, Modeling and Simulation, AI."
       ],
     },
     {
@@ -160,7 +160,7 @@ import {
       iconBg: "black",
       date: "Jan 2023",
       points: [
-        "Part of the studen cohort of the workshop",
+        "Part of the student cohort of the workshop",
         "Started developing a research-focused approach to machine learning and visualization.",
         "Developed data viz to explore and communicate findings with data storytelling.",
         "Built on scholarly work in HCAI and Social Technologies & Visualization."
